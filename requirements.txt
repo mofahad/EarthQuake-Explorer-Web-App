@@ -1,0 +1,8 @@
+streamlit
+os
+pandas
+numpy
+plotly
+PIL
+folium
+time
