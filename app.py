@@ -60,7 +60,7 @@ At the Earth's surface, earthquakes manifest themselves by shaking and displacin
     if st.checkbox('Show Earthquake Data'):
         st.subheader('Showing Earthquake Data')
 
-        st.write(data.head(100))
+        st.dataframe(data.head(100))
 
     # ML Section
 
